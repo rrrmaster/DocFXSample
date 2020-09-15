@@ -26,8 +26,8 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-artifact@v1
         with:
-          name: UnitySample/Documentation/_site
-          path: _site # Must equals the 'build.dest' value on your docfx.json
+          name: _site
+          path: UnitySample/Documentation/_site # Must equals the 'build.dest' value on your docfx.json
 
   # Deploy the generated documentation to the gh-pages branch
   deploy:
