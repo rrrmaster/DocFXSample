@@ -48,7 +48,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.PERSONAL_TOKEN }} # You need some setup, see https://github.com/JamesIves/github-pages-deploy-action
+          ACCESS_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           BRANCH: gh-pages
           FOLDER: _site
           REPOSITORY_NAME: Korstrix/korstrix.github.io
