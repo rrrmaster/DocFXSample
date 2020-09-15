@@ -20,8 +20,8 @@ jobs:
 
       - name: Build
         run: |
-          cp README.md Documentation/index.md
-          docfx Documentation/docfx.json
+          cp README.md UnitySample/Documentation/index.md
+          docfx UnitySample/Documentation/docfx.json
       # Upload the generated documentation
       - name: Upload site artifact
         uses: actions/upload-artifact@v1
