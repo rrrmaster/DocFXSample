@@ -52,3 +52,4 @@ jobs:
           BRANCH: gh-pages
           FOLDER: _site
           REPOSITORY_NAME: Korstrix/korstrix.github.io
+          SILENT: false
