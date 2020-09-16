@@ -49,8 +49,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.6.1
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
+          BRANCH: master
           FOLDER: _site
           REPOSITORY_NAME: Korstrix/korstrix.github.io
           SILENT: false
